@@ -1,10 +1,9 @@
 {
   "version": 2,
   "routes": [
-    { "src": "/", "dest": "/index.html" },
-    { "src": "/manifest.json", "dest": "/manifest.json" },
     { "src": "/sw.js", "dest": "/sw.js" },
-    { "src": "/icon-(.*)", "dest": "/icon-$1" },
+    { "src": "/manifest.json", "dest": "/manifest.json" },
+    { "src": "/icon.png", "dest": "/icon.png" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
